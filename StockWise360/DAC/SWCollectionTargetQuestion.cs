@@ -3,64 +3,63 @@ using PX.Data;
 using PX.Data.BQL;
 using PX.Data.BQL.Fluent;
 using PX.Data.ReferentialIntegrity.Attributes;
-using StockWise360.BLC;
 
 namespace StockWise360.DAC
 {
-    [PXCacheName("SW Collection Target")]
-    [PXPrimaryGraph(typeof(SWCollectionTargetMaint))]
-    public class SWCollectionTarget : PXBqlTable, IBqlTable
+    [PXCacheName("SW Collection Target Question")]
+    public class SWCollectionTargetQuestion : PXBqlTable, IBqlTable
     {
-        public class PK : PrimaryKeyOf<SWCollectionTarget>.By<collectionTargetID>
+        public class PK : PrimaryKeyOf<SWCollectionTargetQuestion>.By<collectionTargetQuestionID>
         {
-            public static SWCollectionTarget Find(PXGraph graph, int? collectionTargetID) => FindBy(graph, collectionTargetID);
+            public static SWCollectionTargetQuestion Find(PXGraph graph, int? collectionTargetQuestionID) => FindBy(graph, collectionTargetQuestionID);
         }
 
+        #region CollectionTargetQuestionID
+        /// <summary>
+        ///   Question ID
+        /// </summary>
+        [PXDBIdentity(IsKey = true)]
+        [PXUIField(DisplayName="Question ID")]
+        public int? CollectionTargetQuestionID { get; set; }
+        /// <exclude/>
+        public abstract class collectionTargetQuestionID : BqlInt.Field<collectionTargetQuestionID> { }
+        #endregion
+        
         #region CollectionTargetID
         /// <summary>
         ///   Collection Target ID
         /// </summary>
-        [PXDBIdentity(IsKey = true)]
-        [PXSelector(typeof(SelectFrom<SWCollectionTarget>.SearchFor<collectionTargetID>))]
+        [PXDBInt]
+        [PXParent(typeof(SelectFrom<SWCollectionTarget>
+            .Where<SWCollectionTarget.collectionTargetID.IsEqual<collectionTargetID.FromCurrent>>))]
         [PXUIField(DisplayName="Collection Target ID")]
         public int? CollectionTargetID { get; set; }
         /// <exclude/>
         public abstract class collectionTargetID : BqlInt.Field<collectionTargetID> { }
         #endregion      
         
-        #region CollectionName
+        #region QuestionText
         /// <summary>
-        ///   Name
-        /// </summary>
-        [PXDBString(100)]
-        [PXUIField(DisplayName="Name")]
-        public string CollectionName { get; set; }
-        /// <exclude/>
-        public abstract class collectionName : BqlString.Field<collectionName> { }
-        #endregion
-        
-        #region CollectionPath
-        /// <summary>
-        ///   Path
-        /// </summary>
-        [PXDBString(255)]
-        [PXUIField(DisplayName="Path")]
-        public string CollectionPath { get; set; }
-        /// <exclude/>
-        public abstract class collectionPath : BqlString.Field<collectionPath> { }
-        #endregion
-        
-        #region MainPrompt
-        /// <summary>
-        ///   Main Prompt
+        ///   Question
         /// </summary>
         [PXDBString(4000)]
-        [PXUIField(DisplayName="Main Prompt")]
-        public string MainPrompt { get; set; }
+        [PXUIField(DisplayName="Question")]
+        public string QuestionText { get; set; }
         /// <exclude/>
-        public abstract class mainPrompt : BqlString.Field<mainPrompt> { }
+        public abstract class questionText : BqlString.Field<questionText> { }
         #endregion
          
+        #region ResultSample
+        /// <summary>
+        ///   Result Sample Text
+        /// </summary>
+        [PXDBString(4000)]
+        [PXUIField(DisplayName="Result Sample Text")]
+        public string ResultSample { get; set; }
+        /// <exclude/>
+        public abstract class resultSample : BqlString.Field<resultSample> { }
+        #endregion
+        
         #region Audit fields
         
         #region CreatedByID

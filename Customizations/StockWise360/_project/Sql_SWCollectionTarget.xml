@@ -1,0 +1,21 @@
+﻿<Sql TableName="SWCollectionTarget" TableSchemaXml="#CDATA">
+    <CDATA name="TableSchemaXml"><![CDATA[<table name="SWCollectionTarget">
+  <col name="CompanyID" type="Int" default="Zero" />
+  <col name="CollectionTargetID" type="Int" identity="true"/>
+  <col name="CollectionName" type="NVarchar(100)" nullable="true" />
+  <col name="CollectionPath" type="NVarchar(255)" nullable="true" />
+  <col name="MainPrompt" type="NVarchar(4000)" nullable="true" />
+  <col name="CreatedByID" type="UniqueIdentifier" />
+  <col name="CreatedByScreenID" type="Char(8)" />
+  <col name="CreatedDateTime" type="SmallDateTime" />
+  <col name="LastModifiedByID" type="UniqueIdentifier" />
+  <col name="LastModifiedByScreenID" type="Char(8)" />
+  <col name="LastModifiedDateTime" type="SmallDateTime" />
+  <col name="tstamp" type="Timestamp" />
+  <col name="NoteID" type="UniqueIdentifier" nullable="true" />
+  <index name="SWCollectionTarget_PK" clustered="true" primary="true" unique="true">
+    <col name="CompanyID" />
+    <col name="CollectionTargetID" />
+  </index>
+</table>]]></CDATA>
+</Sql>

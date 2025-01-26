@@ -8,6 +8,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "24.203.0023", "http://local
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "false"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		ProjectReferences = "{9bc6d61a-5d4b-4d57-bc6b-5e3f9d04377e}|StockWise360.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/24.203.0023"
 		Debug.AspNetCompiler.PhysicalPath = "..\..\Program Files Acu\24.203.0023\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\24.203.0023\"

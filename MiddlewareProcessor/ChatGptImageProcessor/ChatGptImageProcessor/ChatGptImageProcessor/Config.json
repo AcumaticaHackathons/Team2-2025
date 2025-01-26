@@ -1,0 +1,10 @@
+{
+    "OpenAiApiKey": "sk-proj-yCVpVE1qZziYtyfKY0pqT3BlbkFJwnAJBZaS2Rh6LZhrVrXS",
+    "ImageDirectory": "C:\\Hackathon Parts Library\\",
+    "ImageDirectory2": "C:\\Users\\robertwaite\\Desktop\\DenHac Inventory\\Denhac - Electrical Components\\",
+    "TestImagePath": "C:\\Hackathon Parts Library\\141001$BinQuantity.jpeg",
+    "TargetERPInstanceURL": "https://hackathon.acumatica.com/Beta",
+    "User": "Admin",
+    "Pwd": "team2banana",
+    "CollectionTargetID": "1"
+}

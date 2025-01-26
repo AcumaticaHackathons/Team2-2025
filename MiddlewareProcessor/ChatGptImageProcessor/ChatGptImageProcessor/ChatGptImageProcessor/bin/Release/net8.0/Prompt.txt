@@ -1,0 +1,9 @@
+The following is an image of electronic components that are found in an electronics lab in a makerspace. We want to see if you can help us extract any information about the component so that it can be used to catalog the items. We expect the results to be returned in a consistent Json result. I will ask a series of questions about the image each question and will declare the expected type for the element. One Json element should be returned for each question along with the expected data type.
+
+Question 1: is there a barcode label with the word denhac on it. If there is a denhac barcode can you return the text value of the barcode. If you cannot find a barcode return a null value. The results should be returned as a integer vault in element named DenhacID
+
+Question 2: Can you give an approximate number of items found in the photograph. The recut should be returned as a numerical value in a element called Quantity
+
+Question 3: Can you read any text that may be on any of the item or on the label of the bin. If text is found on either can you return it within a string element named ImageText
+
+Question 4: Based on the results of question 3 can you find a part number and explain the function of the component. Do not include any text from the denhac ID barcode.Add the results to a string element named FunctionDescription.";

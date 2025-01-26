@@ -46,7 +46,7 @@ namespace StockWise360.DAC
         ///   Path
         /// </summary>
         [PXDBString(255)]
-        [PXUIField(DisplayName="Path")]
+        [PXUIField(DisplayName="Image Source")]
         public string CollectionPath { get; set; }
         /// <exclude/>
         public abstract class collectionPath : BqlString.Field<collectionPath> { }
@@ -63,6 +63,37 @@ namespace StockWise360.DAC
         public abstract class mainPrompt : BqlString.Field<mainPrompt> { }
         #endregion
          
+        #region Question
+        /// <summary>
+        ///   Question
+        /// </summary>
+        [PXDBString(4000)]
+        [PXUIField(DisplayName="Question")]
+        public string Question { get; set; }
+        /// <exclude/>
+        public abstract class question : PX.Data.BQL.BqlString.Field<question> { }
+        #endregion
+        
+        #region SampleResult
+        /// <summary>
+        ///   Sample Result
+        /// </summary>
+        [PXDBString(4000)]
+        [PXUIField(DisplayName="Sample Result")]
+        public string SampleResult { get; set; }
+        /// <exclude/>
+        public abstract class sampleResult : PX.Data.BQL.BqlString.Field<sampleResult> { }
+        #endregion
+        
+        #region LineCntr
+        [PXDBInt]
+        [PXDefault(0, PersistingCheck = PXPersistingCheck.Nothing)]
+        [PXUIField(DisplayName="Line Counter", Visible = false)]
+        public int? LineCntr { get; set; }
+        /// <exclude/>
+        public abstract class lineCntr : PX.Data.BQL.BqlInt.Field<lineCntr> { }
+        #endregion
+        
         #region Noteid
         /// <summary>
         /// Note ID establishes a globally unique identifier and facilitates attachments

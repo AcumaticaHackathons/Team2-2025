@@ -3,8 +3,15 @@
   <col name="CompanyID" type="Int" default="Zero" />
   <col name="CollectionTargetQuestionID" type="Int" identity="true"/>
   <col name="CollectionTargetID" type="Int" />
-  <col name="QuestionText" type="NVarchar(4000)" nullable="true" />
-  <col name="ResultSample" type="NVarchar(4000)" nullable="true" />
+  <col name="LineNbr" type="Int" />
+  <col name="JsonResult" type="NVarchar(4000)" nullable="true" />
+  <col name="ItemID" type="NVarchar(100)" nullable="true" />
+  <col name="Manufacturer" type="NVarchar(255)" nullable="true" />
+  <col name="Information" type="NVarchar(255)" nullable="true" />
+  <col name="Description" type="NVarchar(4000)" nullable="true" />
+  <col name="Vendors" type="NVarchar(4000)" nullable="true" />
+  <col name="Use" type="NVarchar(1000)" nullable="true" />
+  <col name="Lead" type="NVarchar(255)" nullable="true" />
   <col name="CreatedByID" type="UniqueIdentifier" />
   <col name="CreatedByScreenID" type="Char(8)" />
   <col name="CreatedDateTime" type="SmallDateTime" />

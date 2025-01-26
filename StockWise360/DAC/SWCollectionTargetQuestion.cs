@@ -39,26 +39,118 @@ namespace StockWise360.DAC
         public abstract class collectionTargetID : BqlInt.Field<collectionTargetID> { }
         #endregion      
         
-        #region QuestionText
+        #region LineNbr
         /// <summary>
-        ///   Question
+        ///   Custom LineNbr field.
+        ///   The default LineNbr for SOLine increments by 2 (e.g., 1, 3, 5, 7).
+        ///   This customization ensures a sequential numbering (e.g., 1, 2, 3, 4).
         /// </summary>
-        [PXDBString(4000)]
-        [PXUIField(DisplayName="Question")]
-        public string QuestionText { get; set; }
+        [PXDBInt]
+        [PXLineNbr(typeof(SWCollectionTarget.lineCntr))]
+        [PXDefault(PersistingCheck = PXPersistingCheck.Nothing)]
+        [PXUIField(DisplayName="Line Nbr.", Enabled = false, Visible = true)]
+        public int? LineNbr { get; set; }
         /// <exclude/>
-        public abstract class questionText : BqlString.Field<questionText> { }
+        public abstract class lineNbr : PX.Data.BQL.BqlInt.Field<lineNbr> { }
         #endregion
-         
-        #region ResultSample
+        
+        #region ThumbnailURL
         /// <summary>
-        ///   Result Sample Text
+        ///   ThumbnailURL
         /// </summary>
-        [PXDBString(4000)]
-        [PXUIField(DisplayName="Result Sample Text")]
-        public string ResultSample { get; set; }
+        [PXString]
+        [PXUIField(DisplayName="Image", Enabled = false)]
+        public string ThumbnailURL { get; set; }
+        /// <exclude />
+        public abstract class thumbnailURL : IBqlField { }
+        #endregion
+        
+        #region JsonResult
+        /// <summary>
+        ///   Json Result
+        /// </summary>
+        [PXDBString]
+        [PXUIField(DisplayName="Json Result")]
+        public string JsonResult { get; set; }
         /// <exclude/>
-        public abstract class resultSample : BqlString.Field<resultSample> { }
+        public abstract class jsonResult : PX.Data.BQL.BqlString.Field<jsonResult> { }
+        #endregion
+        
+        #region ItemID
+        /// <summary>
+        ///   Item ID
+        /// </summary>
+        [PXDBString]
+        [PXUIField(DisplayName="Item ID")]
+        public string ItemID { get; set; }
+        /// <exclude/>
+        public abstract class itemID : PX.Data.BQL.BqlString.Field<itemID> { }
+        #endregion  
+        
+        #region Manufacturer
+        /// <summary>
+        ///   Manufacturer
+        /// </summary>
+        [PXDBString]
+        [PXUIField(DisplayName="Manufacturer")]
+        public string Manufacturer { get; set; }
+        /// <exclude/>
+        public abstract class manufacturer : PX.Data.BQL.BqlString.Field<manufacturer> { }
+        #endregion
+        
+        #region Information
+        /// <summary>
+        ///   Information
+        /// </summary>
+        [PXDBString]
+        [PXUIField(DisplayName="Information")]
+        public string Information { get; set; }
+        /// <exclude/>
+        public abstract class information : PX.Data.BQL.BqlString.Field<information> { }
+        #endregion
+        
+        #region Description
+        /// <summary>
+        ///   Description
+        /// </summary>
+        [PXDBString]
+        [PXUIField(DisplayName="Description")]
+        public string Description { get; set; }
+        /// <exclude/>
+        public abstract class description : PX.Data.BQL.BqlString.Field<description> { }
+        #endregion
+        
+        #region Vendors
+        /// <summary>
+        ///   Vendors
+        /// </summary>
+        [PXDBString]
+        [PXUIField(DisplayName="Vendors")]
+        public string Vendors { get; set; }
+        /// <exclude/>
+        public abstract class vendors : PX.Data.BQL.BqlString.Field<vendors> { }
+        #endregion
+        
+        #region Use
+        /// <summary>
+        ///   Use
+        /// </summary>
+        [PXDBString]
+        [PXUIField(DisplayName="Use")]
+        public string Use { get; set; }
+        /// <exclude/>
+        public abstract class use : PX.Data.BQL.BqlString.Field<use> { }
+        #endregion
+        
+        #region Lead
+        /// <summary>
+        ///   Lead
+        /// </summary>
+        [PXDBString]
+        [PXUIField(DisplayName="Lead")]
+        public string Lead { get; set; }
+        /// <exclude/>
+        public abstract class lead : PX.Data.BQL.BqlString.Field<lead> { }
         #endregion
         
         #region Noteid

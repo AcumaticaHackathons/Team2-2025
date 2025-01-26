@@ -3,11 +3,13 @@
         <ExtendsEndpoint name="Default" version="24.200.001" />
         <TopLevelEntity name="CollectionTarget" screen="SW100002">
             <Fields>
+                <Field name="Answers" type="Answers[]" />
                 <Field name="CollectionTargetID" type="IntValue" />
                 <Field name="MainPrompt" type="StringValue" />
                 <Field name="Name" type="StringValue" />
                 <Field name="Path" type="StringValue" />
-                <Field name="Questions" type="CollectionTargetQuestions[]" />
+                <Field name="Question" type="StringValue" />
+                <Field name="SampleResult" type="StringValue" />
             </Fields>
             <Mappings>
                 <Mapping field="Name">
@@ -22,24 +24,46 @@
                 <Mapping field="MainPrompt">
                     <To object="CollectionTargetView" field="MainPrompt" />
                 </Mapping>
-                <Mapping field="Questions">
+                <Mapping field="Question">
+                    <To object="CollectionTargetView" field="Question" />
+                </Mapping>
+                <Mapping field="SampleResult">
+                    <To object="CollectionTargetView" field="SampleResult" />
+                </Mapping>
+                <Mapping field="Answers">
                     <Mapping field="QuestionID">
                         <To object="CollectionTargetQuestionView" field="CollectionTargetQuestionID" />
                     </Mapping>
-                    <Mapping field="Question">
-                        <To object="CollectionTargetQuestionView" field="QuestionText" />
+                    <Mapping field="Description">
+                        <To object="CollectionTargetQuestionView" field="Description" />
                     </Mapping>
-                    <Mapping field="ResultSampleText">
-                        <To object="CollectionTargetQuestionView" field="ResultSample" />
+                    <Mapping field="Information">
+                        <To object="CollectionTargetQuestionView" field="Information" />
+                    </Mapping>
+                    <Mapping field="ItemID">
+                        <To object="CollectionTargetQuestionView" field="ItemID" />
+                    </Mapping>
+                    <Mapping field="JsonResult">
+                        <To object="CollectionTargetQuestionView" field="JsonResult" />
+                    </Mapping>
+                    <Mapping field="Lead">
+                        <To object="CollectionTargetQuestionView" field="Lead" />
+                    </Mapping>
+                    <Mapping field="Manufacturer">
+                        <To object="CollectionTargetQuestionView" field="Manufacturer" />
                     </Mapping>
                 </Mapping>
             </Mappings>
         </TopLevelEntity>
-        <Detail name="CollectionTargetQuestions">
+        <Detail name="Answers">
             <Fields>
-                <Field name="Question" type="StringValue" />
+                <Field name="Description" type="StringValue" />
+                <Field name="Information" type="StringValue" />
+                <Field name="ItemID" type="StringValue" />
+                <Field name="JsonResult" type="StringValue" />
+                <Field name="Lead" type="StringValue" />
+                <Field name="Manufacturer" type="StringValue" />
                 <Field name="QuestionID" type="IntValue" />
-                <Field name="ResultSampleText" type="StringValue" />
             </Fields>
         </Detail>
     </Endpoint>

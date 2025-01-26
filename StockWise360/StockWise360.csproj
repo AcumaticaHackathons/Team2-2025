@@ -52,10 +52,14 @@
     <Reference Include="PX.Objects">
       <HintPath>$(LibraryPath)PX.Objects.DLL</HintPath>
     </Reference>
+    <Reference Include="PX.Web.UI">
+      <HintPath>$(LibraryPath)PX.Web.UI.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
@@ -73,4 +77,6 @@
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\..\_BuildTools\ProjectItems\AsemblyVersion.targets" />
+  <Import Project="..\..\_BuildTools\ProjectItems\Acuminator.itemGroup" />
 </Project>

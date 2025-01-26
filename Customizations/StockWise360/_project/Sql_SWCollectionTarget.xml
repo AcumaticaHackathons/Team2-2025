@@ -2,9 +2,12 @@
     <CDATA name="TableSchemaXml"><![CDATA[<table name="SWCollectionTarget">
   <col name="CompanyID" type="Int" default="Zero" />
   <col name="CollectionTargetID" type="Int" identity="true"/>
+  <col name="LineCntr" type="Int" />
   <col name="CollectionName" type="NVarchar(100)" nullable="true" />
   <col name="CollectionPath" type="NVarchar(255)" nullable="true" />
   <col name="MainPrompt" type="NVarchar(4000)" nullable="true" />
+  <col name="Question" type="NVarchar(4000)" nullable="true" />
+  <col name="SampleResult" type="NVarchar(4000)" nullable="true" />
   <col name="CreatedByID" type="UniqueIdentifier" />
   <col name="CreatedByScreenID" type="Char(8)" />
   <col name="CreatedDateTime" type="SmallDateTime" />

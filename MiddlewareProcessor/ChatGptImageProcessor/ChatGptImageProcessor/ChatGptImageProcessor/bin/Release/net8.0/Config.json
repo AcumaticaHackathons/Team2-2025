@@ -1,5 +1,5 @@
 {
-    "OpenAiApiKey": "sk-proj-yCVpVE1qZziYtyfKY0pqT3BlbkFJwnAJBZaS2Rh6LZhrVrXS",
+    "OpenAiApiKey": "",
     "ImageDirectory": "C:\\Hackathon Parts Library\\",
     "TestImagePath": "C:\\Hackathon Parts Library\\141001$BinQuantity.jpeg",
     "TargetERPInstanceURL": "https://hackathon.acumatica.com/Beta",

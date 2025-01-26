@@ -16,7 +16,7 @@
     <FileVersion>24.201.0052</FileVersion>
     <InformationalVersion>24.201.0052</InformationalVersion>
     <Copyright>Copyright © 2005-2024 Acumatica, Inc. All rights reserved.</Copyright>
-    <LibraryPath>d:\Acumatica\Sites\Training\Bin\</LibraryPath>
+    <LibraryPath>C:\Program Files Acu\24.203.0023\Bin\</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -72,6 +72,4 @@
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="..\..\_BuildTools\ProjectItems\AsemblyVersion.targets" />
-  <Import Project="..\..\_BuildTools\ProjectItems\Acuminator.itemGroup" />
 </Project>

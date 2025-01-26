@@ -1,0 +1,27 @@
+﻿<Page path="~/Pages/SW/SW100002.aspx" ControlId="3" pageSource="jZPJbtswEIbPCZB3IFjkamVBewjsoImcDbALw3Lj3oqJNLGJUKRKUll66LN3hpJjZXEbnsh/yOE/35D93a9iAgsUIzCLmiYDmX6SYgw+oOPAudKk/UnWik/OrSuHGEDpXhllKU7qYM/u0YS5clhXAxlcjVJcg1YFBJzirxp9GMhb0J701BZt5my+v0fjoAe+euzlXoors0Sngh9Ivu3naoMUMxX4xHcTeFJE31LsHu9s96mKxuDsqUJxrVyoQU8gLD9gnRNQCrr/KLUmUA3iajiQOc332WmUJhpyvLS6QMfBajnMpJjWBqimDN09JaI0W/3q8WjyYwgBMlu7HGOmgopyzVbfbCWHXt1wMbOIaa4KtkqF7sqdbdEOruUblAwp2PxurjweftnrnY7SXjZPrdaYB2XNDNwCwxiUCZ3DE6dKcE/XCh+opa82s9rZy863+ilofQP5XWrLEkzhIxbSk3cCpL6qlLuQdBgeb0B6sBnp+Wai3DY2HdPc0uIN0bWTFXJWxljeoNsA4AV2cYlqsQxxVT3Sg9baPvCrvlQFrt5tA2qGZaXpUcdVa3AET7YO01o3Le8K+2+8ZgFcmNqHtv1Jkzbp5m35rur+KN3DzXQvNtO9cKqIKRY0+QDZ97l9jtyyO2V4X/PJ/D9BjvAete9iZCdR/X/3mmP8fPsUr0vj1wqPdTh5EW/JPt/Uwu946bPbTP3GyJL+FXuYK1NYejNnBujjFqufO1amA0CKtpcn0e0puPZvJc9Cp7ls4U1j/wI=">
+    <PXFormView ID="form" ParentId="phF_form" TypeFullName="PX.Web.UI.PXFormView">
+        <Children Key="Template">
+            <AddItem>
+                <PXTextEdit TypeFullName="PX.Web.UI.PXTextEdit">
+                    <Prop Key="Virtual:ApplyStylesheetSkin" />
+                    <Prop Key="ID" Value="CstPXTextEdit1" />
+                    <Prop Key="DataField" Value="CollectionName" />
+                </PXTextEdit>
+            </AddItem>
+            <AddItem>
+                <PXTextEdit TypeFullName="PX.Web.UI.PXTextEdit">
+                    <Prop Key="Virtual:ApplyStylesheetSkin" />
+                    <Prop Key="ID" Value="CstPXTextEdit2" />
+                    <Prop Key="DataField" Value="CollectionPath" />
+                </PXTextEdit>
+            </AddItem>
+            <AddItem>
+                <PXTextEdit TypeFullName="PX.Web.UI.PXTextEdit">
+                    <Prop Key="Virtual:ApplyStylesheetSkin" />
+                    <Prop Key="ID" Value="CstPXTextEdit3" />
+                    <Prop Key="DataField" Value="MainPrompt" />
+                </PXTextEdit>
+            </AddItem>
+        </Children>
+    </PXFormView>
+</Page>

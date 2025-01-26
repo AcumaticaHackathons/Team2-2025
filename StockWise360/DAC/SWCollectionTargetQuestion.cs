@@ -19,7 +19,7 @@ namespace StockWise360.DAC
         ///   Question ID
         /// </summary>
         [PXDBIdentity(IsKey = true)]
-        [PXUIField(DisplayName="Question ID")]
+        [PXUIField(DisplayName="Question ID", Enabled = false)]
         public int? CollectionTargetQuestionID { get; set; }
         /// <exclude/>
         public abstract class collectionTargetQuestionID : BqlInt.Field<collectionTargetQuestionID> { }
@@ -33,7 +33,7 @@ namespace StockWise360.DAC
         [PXDBDefault(typeof(SWCollectionTarget.collectionTargetID))]
         [PXParent(typeof(SelectFrom<SWCollectionTarget>
             .Where<SWCollectionTarget.collectionTargetID.IsEqual<collectionTargetID.FromCurrent>>))]
-        [PXUIField(DisplayName="Collection Target ID")]
+        [PXUIField(DisplayName="Collection Target ID", Enabled = false)]
         public int? CollectionTargetID { get; set; }
         /// <exclude/>
         public abstract class collectionTargetID : BqlInt.Field<collectionTargetID> { }
@@ -59,6 +59,18 @@ namespace StockWise360.DAC
         public string ResultSample { get; set; }
         /// <exclude/>
         public abstract class resultSample : BqlString.Field<resultSample> { }
+        #endregion
+        
+        #region Noteid
+        /// <summary>
+        /// Note ID establishes a globally unique identifier and facilitates attachments
+        /// </summary>
+        [PXNote]
+        public virtual Guid? Noteid { get; set; }
+        /// <summary>
+        /// Note ID establishes a globally unique identifier and facilitates attachments
+        /// </summary>
+        public abstract class noteid : BqlType<IBqlGuid, Guid>.Field<noteid> { }
         #endregion
         
         #region Audit fields

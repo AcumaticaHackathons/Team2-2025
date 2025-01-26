@@ -21,7 +21,9 @@ namespace StockWise360.DAC
         ///   Collection Target ID
         /// </summary>
         [PXDBIdentity(IsKey = true)]
-        [PXSelector(typeof(SelectFrom<SWCollectionTarget>.SearchFor<collectionTargetID>))]
+        [PXSelector(typeof(SelectFrom<SWCollectionTarget>.SearchFor<collectionTargetID>),
+            typeof(collectionTargetID),
+            typeof(collectionName))]
         [PXUIField(DisplayName="Collection Target ID")]
         public int? CollectionTargetID { get; set; }
         /// <exclude/>
@@ -61,6 +63,18 @@ namespace StockWise360.DAC
         public abstract class mainPrompt : BqlString.Field<mainPrompt> { }
         #endregion
          
+        #region Noteid
+        /// <summary>
+        /// Note ID establishes a globally unique identifier and facilitates attachments
+        /// </summary>
+        [PXNote]
+        public virtual Guid? Noteid { get; set; }
+        /// <summary>
+        /// Note ID establishes a globally unique identifier and facilitates attachments
+        /// </summary>
+        public abstract class noteid : BqlType<IBqlGuid, Guid>.Field<noteid> { }
+        #endregion
+        
         #region Audit fields
         
         #region CreatedByID

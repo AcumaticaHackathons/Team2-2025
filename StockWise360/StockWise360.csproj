@@ -16,7 +16,7 @@
     <FileVersion>24.201.0052</FileVersion>
     <InformationalVersion>24.201.0052</InformationalVersion>
     <Copyright>Copyright © 2005-2024 Acumatica, Inc. All rights reserved.</Copyright>
-    <LibraryPath>C:\Program Files Acu\24.203.0023\Bin\</LibraryPath>
+    <LibraryPath>d:\Acumatica\Sites\Training\Bin\</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

@@ -25,8 +25,21 @@
         </layout>
         <data>
             <SiteMap>
-                <row Position="21518" Title="Collection Target" Url="~/Pages/SW/SW100002.aspx" ScreenID="SW100002" NodeID="581fe4f4-eec8-4ff1-9986-35dec89139e4" ParentID="00000000-0000-0000-0000-000000000000" SelectedUI="E" />
+                <row Position="21518" Title="Collection Target" Url="~/Pages/SW/SW100002.aspx" ScreenID="SW100002" NodeID="581fe4f4-eec8-4ff1-9986-35dec89139e4" ParentID="00000000-0000-0000-0000-000000000000" SelectedUI="E">
+                    <MUIScreen IsPortal="0" WorkspaceID="6557c1c6-747e-45bb-9072-54f096598d61" Order="20" SubcategoryID="38d13a6e-3076-42fb-9fce-62fa12897da9" />
+                </row>
             </SiteMap>
+            <MUIWorkspace>
+                <row IsPortal="0" WorkspaceID="6557c1c6-747e-45bb-9072-54f096598d61" Order="284" Title="Inventory" Icon="local_shipping" AreaID="62cfd5dc-8eb9-4e92-bbcd-e0a99eb5e5df" ScreenID="WSIN0000" IsSystem="0">
+                    <MUIFavoriteWorkspace IsPortal="0" Username="" IsFavorite="1" />
+                </row>
+            </MUIWorkspace>
+            <MUISubcategory>
+                <row IsPortal="0" SubcategoryID="38d13a6e-3076-42fb-9fce-62fa12897da9" Order="96" Name="Automated Operations" Icon="" IsSystem="0" />
+            </MUISubcategory>
+            <MUIArea>
+                <row IsPortal="0" AreaID="62cfd5dc-8eb9-4e92-bbcd-e0a99eb5e5df" Order="20" Name="Operations" />
+            </MUIArea>
         </data>
     </data-set>
 </SiteMapNode>

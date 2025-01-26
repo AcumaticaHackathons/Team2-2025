@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Oomt8cNgmSU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\robertwaite\\Desktop\\ChatGptImageProcessor\\ChatGptImageProcessor\\ChatGptImageProcessor\\ChatGptImageProcessor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\robertwaite\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\robertwaite\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

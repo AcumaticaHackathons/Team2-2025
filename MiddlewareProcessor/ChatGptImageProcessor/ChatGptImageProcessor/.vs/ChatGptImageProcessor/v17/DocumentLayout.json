@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\robertwaite\\Desktop\\ChatGptImageProcessor\\ChatGptImageProcessor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{132EE2D4-8B9C-4BF0-B274-A3B1901FF347}|ChatGptImageProcessor\\ChatGptImageProcessor.csproj|c:\\users\\robertwaite\\desktop\\chatgptimageprocessor\\chatgptimageprocessor\\chatgptimageprocessor\\acumaticaapiprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{132EE2D4-8B9C-4BF0-B274-A3B1901FF347}|ChatGptImageProcessor\\ChatGptImageProcessor.csproj|solutionrelative:chatgptimageprocessor\\acumaticaapiprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{132EE2D4-8B9C-4BF0-B274-A3B1901FF347}|ChatGptImageProcessor\\ChatGptImageProcessor.csproj|c:\\users\\robertwaite\\desktop\\chatgptimageprocessor\\chatgptimageprocessor\\chatgptimageprocessor\\chatgptimageprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{132EE2D4-8B9C-4BF0-B274-A3B1901FF347}|ChatGptImageProcessor\\ChatGptImageProcessor.csproj|solutionrelative:chatgptimageprocessor\\chatgptimageprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{132EE2D4-8B9C-4BF0-B274-A3B1901FF347}|ChatGptImageProcessor\\ChatGptImageProcessor.csproj|c:\\users\\robertwaite\\desktop\\chatgptimageprocessor\\chatgptimageprocessor\\chatgptimageprocessor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{132EE2D4-8B9C-4BF0-B274-A3B1901FF347}|ChatGptImageProcessor\\ChatGptImageProcessor.csproj|solutionrelative:chatgptimageprocessor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{132EE2D4-8B9C-4BF0-B274-A3B1901FF347}|ChatGptImageProcessor\\ChatGptImageProcessor.csproj|c:\\users\\robertwaite\\desktop\\chatgptimageprocessor\\chatgptimageprocessor\\chatgptimageprocessor\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{132EE2D4-8B9C-4BF0-B274-A3B1901FF347}|ChatGptImageProcessor\\ChatGptImageProcessor.csproj|solutionrelative:chatgptimageprocessor\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{132EE2D4-8B9C-4BF0-B274-A3B1901FF347}|ChatGptImageProcessor\\ChatGptImageProcessor.csproj|c:\\users\\robertwaite\\desktop\\chatgptimageprocessor\\chatgptimageprocessor\\chatgptimageprocessor\\prompt.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{132EE2D4-8B9C-4BF0-B274-A3B1901FF347}|ChatGptImageProcessor\\ChatGptImageProcessor.csproj|solutionrelative:chatgptimageprocessor\\prompt.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Prompt.txt",
+              "DocumentMoniker": "C:\\Users\\robertwaite\\Desktop\\ChatGptImageProcessor\\ChatGptImageProcessor\\ChatGptImageProcessor\\Prompt.txt",
+              "RelativeDocumentMoniker": "ChatGptImageProcessor\\Prompt.txt",
+              "ToolTip": "C:\\Users\\robertwaite\\Desktop\\ChatGptImageProcessor\\ChatGptImageProcessor\\ChatGptImageProcessor\\Prompt.txt",
+              "RelativeToolTip": "ChatGptImageProcessor\\Prompt.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACtAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-26T07:00:31.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AcumaticaApiProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\robertwaite\\Desktop\\ChatGptImageProcessor\\ChatGptImageProcessor\\ChatGptImageProcessor\\AcumaticaApiProcessor.cs",
+              "RelativeDocumentMoniker": "ChatGptImageProcessor\\AcumaticaApiProcessor.cs",
+              "ToolTip": "C:\\Users\\robertwaite\\Desktop\\ChatGptImageProcessor\\ChatGptImageProcessor\\ChatGptImageProcessor\\AcumaticaApiProcessor.cs",
+              "RelativeToolTip": "ChatGptImageProcessor\\AcumaticaApiProcessor.cs",
+              "ViewState": "AgIAAEcAAABgZGZmZqYjwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T05:06:24.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatGptImageProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\robertwaite\\Desktop\\ChatGptImageProcessor\\ChatGptImageProcessor\\ChatGptImageProcessor\\ChatGptImageProcessor.cs",
+              "RelativeDocumentMoniker": "ChatGptImageProcessor\\ChatGptImageProcessor.cs",
+              "ToolTip": "C:\\Users\\robertwaite\\Desktop\\ChatGptImageProcessor\\ChatGptImageProcessor\\ChatGptImageProcessor\\ChatGptImageProcessor.cs",
+              "RelativeToolTip": "ChatGptImageProcessor\\ChatGptImageProcessor.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAIAwwGsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T02:40:35.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\robertwaite\\Desktop\\ChatGptImageProcessor\\ChatGptImageProcessor\\ChatGptImageProcessor\\Program.cs",
+              "RelativeDocumentMoniker": "ChatGptImageProcessor\\Program.cs",
+              "ToolTip": "C:\\Users\\robertwaite\\Desktop\\ChatGptImageProcessor\\ChatGptImageProcessor\\ChatGptImageProcessor\\Program.cs",
+              "RelativeToolTip": "ChatGptImageProcessor\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T00:47:30.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Config.json",
+              "DocumentMoniker": "C:\\Users\\robertwaite\\Desktop\\ChatGptImageProcessor\\ChatGptImageProcessor\\ChatGptImageProcessor\\Config.json",
+              "RelativeDocumentMoniker": "ChatGptImageProcessor\\Config.json",
+              "ToolTip": "C:\\Users\\robertwaite\\Desktop\\ChatGptImageProcessor\\ChatGptImageProcessor\\ChatGptImageProcessor\\Config.json",
+              "RelativeToolTip": "ChatGptImageProcessor\\Config.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-26T00:45:43.982Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

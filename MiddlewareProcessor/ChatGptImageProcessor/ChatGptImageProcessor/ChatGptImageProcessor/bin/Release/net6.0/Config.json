@@ -1,0 +1,8 @@
+{
+    "OpenAiApiKey": "",
+    "ImageDirectory": "C:\\Users\\robertwaite\\Desktop\\DenHac Inventory\\Denhac - Electrical Components",
+    "TestImagePath": "C:\\Hackathon Parts Library\\141001$BinQuantity.jpeg",
+    "TargetERPInstanceURL": "https://hackathon.acumatica.com/Beta",
+    "User": "Admin",
+    "Pwd": "team2banana"
+}

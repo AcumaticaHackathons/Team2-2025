@@ -30,6 +30,7 @@ namespace StockWise360.DAC
         ///   Collection Target ID
         /// </summary>
         [PXDBInt]
+        [PXDBDefault(typeof(SWCollectionTarget.collectionTargetID))]
         [PXParent(typeof(SelectFrom<SWCollectionTarget>
             .Where<SWCollectionTarget.collectionTargetID.IsEqual<collectionTargetID.FromCurrent>>))]
         [PXUIField(DisplayName="Collection Target ID")]

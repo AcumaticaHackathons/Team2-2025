@@ -22,7 +22,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>$(LibraryPath)</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="BLC\SWCollectionTargetMaint.cs" />
     <Compile Include="DAC\SWCollectionTarget.cs" />
+    <Compile Include="DAC\SWCollectionTargetQuestion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
